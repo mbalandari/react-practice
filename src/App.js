@@ -2,7 +2,7 @@ function App() {
   return (
     <div>
       <h1>
-        Learn React
+        Learn React Hooks!
       </h1>
     </div>
   );
