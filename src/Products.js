@@ -1,9 +1,10 @@
 function Products() {
+    const products = ["item1", "item2", "item3"];
+    const listProducts = products.map((product) => <li key={product.toString}>{product}</li>);
     return (
         <div>
-            <h1>
-                Products
-            </h1>
+            <h2>List of Products</h2>
+            <ul>{listProducts}</ul>
         </div>
     );
 }
